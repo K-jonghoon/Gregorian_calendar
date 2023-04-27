@@ -65,7 +65,7 @@ public class Calendar_Main {
 //		case 6:System.out.println("토"); break;
 //		}
 //		System.out.println("해당 년도의 요일 " + (totalDays%7));
-		for (int i = 9; i <=12; i++) {
+		for (int i = 1; i <=12; i++) {
 			calM.print_Calender(2023, i);
 			System.out.println("\n\n");
 		}
